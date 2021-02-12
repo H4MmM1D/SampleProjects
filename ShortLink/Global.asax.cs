@@ -21,6 +21,7 @@ namespace ShortLink
 
             var container = new Container();
             container.Register<IAppService, AppService>();
+            //Hello
 
             container.Verify();
 
